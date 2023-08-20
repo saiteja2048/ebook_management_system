@@ -1,0 +1,74 @@
+body {
+    background-color: #BCB19F;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}
+
+#carousel-control-prev1 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    top: 35%;
+}
+
+#carousel-control-next1 {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    top: 35%;
+}
+
+.carousel-control-prev {
+    width: 5vw;
+    height: 5vh;
+    background-color: black;
+    top: 50%;
+    left: -4%;
+}
+
+.carousel-control-next {
+    width: 5vw;
+    height: 5vh;
+    background-color: black;
+    top: 50%;
+    left: 99%;
+}
+
+#cont2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    background-color: pink;
+}
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#m1,
+#m2,
+#m3,
+#m4,
+#c1,
+#c2,
+#c3,
+#c4 {
+    width: 20vw;
+    height: 87vh;
+    left: 20%;
+}
+
+#w1,
+#w2,
+#w3,
+#w4 {
+    width: 25rem;
+    left: 5%;
+}
