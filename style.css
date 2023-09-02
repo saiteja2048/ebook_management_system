@@ -61,8 +61,11 @@ body {
 #c3,
 #c4 {
     width: 20vw;
-    height: 87vh;
+    height: 500px;
     left: 20%;
+}
+img {
+    height:300px;
 }
 
 #w1,
