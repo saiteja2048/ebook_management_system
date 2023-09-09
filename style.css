@@ -47,23 +47,22 @@ body {
 }
 
 #p1,
-#p2,
 #p3,
-#p4,
 #p5,
-#p6,
 #m1,
-#m2,
 #m3,
-#m4,
 #c1,
-#c2,
 #c3,
+#p2,
+#p4,
+#p6,
+#m2,
+#m4,
+#c2,
 #c4 {
     width: 60%;
     height: 440px;
     left: 20%;
-    display: flex;
 }
 
 img {
@@ -76,4 +75,70 @@ img {
 #w4 {
     width: 25rem;
     left: 5%;
+}
+
+@media screen and (max-width:576px) {
+    #p1,
+    #p2,
+    #p3,
+    #p4,
+    #p5,
+    #p6,
+    #m1,
+    #m2,
+    #m3,
+    #m4,
+    #c1,
+    #c2,
+    #c3,
+    #c4 {
+        width: 80%;
+        height: 440px;
+        left: 20%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #p1,
+    #p2,
+    #p3,
+    #p4,
+    #p5,
+    #p6,
+    #m1,
+    #m2,
+    #m3,
+    #m4,
+    #c1,
+    #c2,
+    #c3,
+    #c4 {
+        width: 70%;
+        height: 440px;
+        left: 20%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #p1,
+    #p2,
+    #p3,
+    #p4,
+    #p5,
+    #p6,
+    #m1,
+    #m2,
+    #m3,
+    #m4,
+    #c1,
+    #c2,
+    #c3,
+    #c4 {
+        width: 80%;
+        height: 440px;
+        left: 20%;
+        display: flex;
+    }
 }
